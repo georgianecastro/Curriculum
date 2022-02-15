@@ -1,0 +1,44 @@
+.header{
+  background-color: bisque
+} 
+#quemsou{
+ margin-left: 50px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ margin-top: 25px;
+}
+#name {
+  font-family:'festive', sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+#about {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-width: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 50px;
+}
+.photo {
+  max-width: 50%;
+  display: inline-block;
+  width: 150px;
+  vertical-align: middle;
+  margin: 50px;
+  padding: 10px;
+  background-color: blue;
+  
+}
+
+body{
+  background-color: lavender;
+}
+.emphasis{
+  font-weight: 800;
+}
+ul{
+    font-size:20px;
+  }
+
+.habilidade li:nth-child(2n){
+  color: brown;
+}

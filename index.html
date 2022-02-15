@@ -7,29 +7,18 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Festive&display=swap" rel="stylesheet">
-  <style>
-    #name {
-      font-family:'festive', sans-serif;
-    }
-    #about {
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-    body{
-      background-color: lavender;
-    }
-    .emphasis{
-      font-weight: 800;
-    }
-    ul{
-        font-size:20px;
-      }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <h1>Portfólio Web</h1>
-  <p id="name">Nome: Georgiane de Castro Oliveira</p>
-
+  <div class="header">
+    <p id="name">Georgiane de Castro Oliveira</p>
+    <h2 id="quemsou">Quem sou eu</h2>
+    <p id="about">Nasci no Brasil e moro em <span class="emphasis">Belo Horizonte, Minas Gerais</span>. Sou farmacêutica há 8 anos e trabalho
+      na área de Oncologia e estou iniciando meus estudos na área de <span class="emphasis">tecnologia.</span></p>
+      <img class="photo" src="Jojo na rede.jpg" width="500px" alt="Foto de Georgiane sentada em uma rede em frente a um jardim">
+  </div>
   <h2>Índice</h2>
   <ul >
     <li><a href="#quemsou">Quem sou eu</a></li>
@@ -37,28 +26,26 @@
     <li><a href="#links">Links</a></li>
 
   </ul>
-  <h2 id="quemsou">Quem sou eu</h2>
+ 
   <br>
-  <p id="about">Nasci no Brasil e moro em <span class="emphasis">Belo Horizonte, Minas Gerais</span>. Sou farmacêutica há 8 anos e trabalho
-    na área de Oncologia e estou iniciando meus estudos na área de <span class="emphasis">tecnologia.</span></p>
-  <br><br>
-  <h2 id=habilidades>Minhas habilidades</h2>
+  <div class="habilidade">
+  <h2>Minhas habilidades</h2>
   <br>
   <ul>
-    <li><strong>Proatividade</strong></li>
+    <li>Proatividade</li>
     <li>Comunicação</li>
     <li>Trabalho em equipe</li>
     <li>Iniciativa</li>
     <li>Resiliência</li>
   </ul>
+</div>
   <br><br>
   <h2 id="links">Links</h2>
-  <p>Confira minha imagem clicando <a href="#foto">aqui</a></p>
-  <br>
+ 
   <p>Confira esse canal que me ajuda muito na área: <a href="https://elascodam.wordpress.com/" target="_blank">Elas
       Codam</a></p>
   <a></a>
-  <img id="foto" src="Jojo na rede.jpg" width="500px" alt="Foto de Georgiane sentada em uma rede em frente a um jardim">
+  
 </body>
 
 </html>
